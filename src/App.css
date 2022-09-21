@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  width: 550px;
+}
+
+.user-detail-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.button-close-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonClose {
+  margin-top: 20px;
+  width: 20%;
+}
+
+.detail-label-container {
+  flex: 1;
+  margin-top: 141px;
+}
+
+.detail-container {
+  flex: 1.5 1;
+  margin-left: 10px;
+}
+
+.detail-label {
+  display: flex;
+  justify-content: flex-end;
+}
+.detail {
+  display: flex;
+  justify-content: flex-start;
+  color: #00994d;
+}
+.profilePicture {
+  margin-bottom: 15px;
+  min-height: 127px;
+}
